@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/fallhome-us-mcp",
+  "version": "1.0.0",
+  "description": "fallhome-us MCP server · stdio wrapper around @ai-native-solutions/fallhome-us-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallhome-us-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["fallhome-us", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallhome-us-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/fallhome-us-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
